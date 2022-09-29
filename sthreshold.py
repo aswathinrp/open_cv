@@ -10,6 +10,7 @@ _,th5 = cv2.threshold(img,127,255,cv2.THRESH_TOZERO_INV)
 cv2.imshow('image',img)
 cv2.imshow('th1',th1)
 cv2.imshow('th3',th3)
+print(cv2.imshow('image',img))
 
 cv2.waitKey()
 cv2.destroyAllWindows()
